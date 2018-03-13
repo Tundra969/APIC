@@ -1,13 +1,16 @@
 # APIC 
-API Consumption Code Test
+API Consumption Code Test<br>
 
-Once downloaded, this file can be run from the command line by calling the file directly and inputing in order:
+This powershell script uses the API from http://svc.metrotransit.org to determine the next bus leaving from a particular stop.<br>
+
+
+Once downloaded, this script can be run from the command line by calling the file directly and inputing in order:
   1. The full Route details
   2. The full Stop details
-  3. The direction of the Route requested
+  3. The direction of the Route requested<br>
   
 Response will be minutes to the next bus at that stop or a comment if the last bus for the day has left.
-  
+<br>  
  # Examples:
     > & '.APIC.ps1' "METRO Blue Line" "Target Field Station Platform 1" "south"
      
